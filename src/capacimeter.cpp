@@ -1,7 +1,6 @@
 #include "capacimeter.h"
 
 void initCapacimeter() {
-    Serial.begin(9600);
     
     pinMode(TRIG_PIN, OUTPUT);
     digitalWrite(TRIG_PIN, HIGH);
